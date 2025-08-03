@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  homepage:
+    image: ghcr.io/k4tech-net/homepage:latest
+    container_name: homepage
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
