@@ -3,4 +3,8 @@ import { pluginReact } from '@rsbuild/plugin-react';
 
 export default defineConfig({
   plugins: [pluginReact()],
+  html: {
+    title: 'K4Tech.net - Innovative solutions, quickly',
+    favicon: './src/favicon.svg',
+  },
 });

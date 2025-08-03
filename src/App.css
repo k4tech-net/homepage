@@ -51,6 +51,9 @@ body {
 .links-section {
   flex-shrink: 0;
   margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
 }
 
 .social-links {
@@ -106,6 +109,7 @@ body {
   
   .links-section {
     margin-top: 0.75rem;
+    gap: 0.5rem;
   }
   
   .social-links {
@@ -131,6 +135,7 @@ body {
   
   .links-section {
     margin-top: 0.5rem;
+    gap: 0.5rem;
   }
   
   .link-btn {
