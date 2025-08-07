@@ -49,6 +49,12 @@ const App = () => {
             </svg>
             Password Manager
           </a>
+          <a href="https://makcu.k4tech.net/" target="_blank" rel="noopener noreferrer" className="link-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+            </svg>
+            MAKCU Docs
+          </a>
         </div>
         
         <div className="social-links">
