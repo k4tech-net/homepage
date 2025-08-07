@@ -18,16 +18,18 @@ export default defineConfig({
       'og:type': 'website',
       'og:url': 'https://k4tech.net',
       'og:site_name': 'K4Tech.net',
-      'og:image': '/og-image.svg?v=1',
+      'og:image': 'https://k4tech.net/og-image.png',
+      'og:image:type': 'image/png',
       'og:image:width': '1200',
       'og:image:height': '630',
       'og:image:alt': 'K4Tech.net - Innovative solutions, quickly',
+      'og:image:secure_url': 'https://k4tech.net/og-image.png',
       
       // Twitter Card meta tags
       'twitter:card': 'summary_large_image',
       'twitter:title': 'K4Tech.net - Innovative solutions, quickly',
       'twitter:description': 'K4Tech.net - Innovative solutions, quickly. Access our services including GitHub, Discord, Webmail, Cloud storage, and Password Manager.',
-      'twitter:image': '/og-image.svg?v=1',
+      'twitter:image': 'https://k4tech.net/og-image.png',
       'twitter:image:alt': 'K4Tech.net - Innovative solutions, quickly',
       
       // Additional meta tags
@@ -37,7 +39,7 @@ export default defineConfig({
   },
   output: {
     copy: [
-      { from: './src/og-image.svg', to: 'og-image.svg' },
+      { from: './src/og-image.png', to: 'og-image.png' },
     ],
   },
 });
